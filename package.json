@@ -2,13 +2,13 @@
   "name": "ch13p1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "index.js",  "scripts": {
+    "start": "node art.js"
   },
-  "author": "",
+  "author": "David Schoonover",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "dotenv": "^8.2.0"
   }
 }
